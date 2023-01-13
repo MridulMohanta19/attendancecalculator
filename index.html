@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>SRM Attendance Calculator</title>
+        <link rel="apple-touch-icon" sizes="180x180" href="images/favicon1/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="images/favicon1/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="images/favicon1/favicon-16x16.png">
+        <link rel="manifest" href="images/favicon1/site.webmanifest">
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js" defer></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!-- <link rel="stylesheet" href="style.css">
+        <script src="https://code.jquery.com/jquery-3.6.2.min.js" integrity="sha256-2krYZKh//PcchRtd+H+VyyQoZ/e3EcrkxhM8ycwASPA=" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/add-to-calendar-button@1/assets/css/atcb.min.css">
+        <script src="script.js" defer></script>
+        <style>
+          .tab {
+              display: inline-block;
+              margin-left: 70px;
+          }
+      </style>
+      
+      <style> 
+        #myDIV {
+          animation: mymove 5s infinite;
+        }
+        
+        @keyframes mymove {
+          50% {text-shadow: 10px 20px 30px blue;}
+        }
+        </style>
+      <style>
+        ::-moz-selection { /* Code for Firefox */
+          color: rgb(21, 21, 100);
+          background: #FDC93B;
+        }
+        
+        ::selection {
+          color: rgb(21, 21, 100);
+          background: #FDC93B;
+        }
+        </style>
+    
+    
+  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     -->
+    
+    </head>
+<body>
+
+  <!-- DARK MODE SWITCH -->
+  <button class="darkbtn" onclick="dark()">Dark mode</button>
+
+
+
+  <section id="infobox">
+    <h2>SRM Attendance Calculator</h2>
+    <p>Check the number of classes you needa attend to maintain the 75% criteria. <br> </p>
+
+        <div class="info-box">
+          
+          <form action="/action_page.php">
+            <label for="branch">Branch: </label>
+            <select name="branch" id="branch">
+              <option value="branchselection">Select Branch</option>
+              <option value="btech">B. Tech.</option>
+              <option value="bsc">B. Sc.</option>
+              <option value="bba">B. B. A.</option>
+              <option value="bpharma">B. Pharma.</option>
+            </select>
+            <br>
+            <label for="dept">Dept.: </label>
+            <select name="dept" id="dept">
+              <option value="yrselection">Select Dept.</option>
+              <option value="cse">CSE</option>
+              <option value="it">IT</option>
+              <option value="eee">EEE</option>
+              <option value="ece">ECE</option>
+              <option value="civil">Civil</option>
+              <option value="mechanical">Mechanical</option>
+              
+            </select>
+            <br>
+            <label for="year">Year: </label>
+            <select name="year" id="year">
+              <option value="yrselection">Select Year</option>
+              <option value="first">1st</option>
+              <option value="second">2nd</option>
+              <option value="third">3rd</option>
+              <option value="forth">4th</option>
+            </select>
+            <br>
+            <label for="section">Section:</label>
+            <select name="section" id="section">
+              <option value="secselection">Select Section</option>
+              <option value="a">A</option>
+              <option value="b">B</option>
+              <option value="c">C</option>
+              <option value="d">D</option>
+            </select>
+            <br>
+            <input type="submit" value="Submit">
+          </form>
+    
+        </div>
+    
+</section>
+
+
+
+  
+  
+  <!-- <form action="/action_page.php" method="get"> 
+    <label for="fname">First name:</label>
+    <input type="text" id="fname" name="fname"><br><br>
+    <label for="lname">Last name:</label>
+    <input type="text" id="lname" name="lname"><br><br> 
+     <div class="dropdown">
+      <button class="dropbtn">Year</button>
+      <div class="dropdown-content">
+        <a href="#">1st</a>
+        <a href="#">2nd</a>
+        <a href="#">3rd</a>
+        <a href="#">4th</a>
+      </div>
+    </div>
+    <div class="dropdown">
+      <button class="dropbtn">Section</button>
+      <div class="dropdown-content">
+        <a href="#">A</a>
+        <a href="#">B</a>
+        <a href="#">C</a>
+        <a href="#">D</a>
+      </div>
+    </div>
+    <p><br/></p>
+    <button type="submit" value="Submit">Submit</button>
+    <button type="reset" value="Reset">Reset</button>
+  </form> -->
+
+  
+  
+</body>
+</html>
